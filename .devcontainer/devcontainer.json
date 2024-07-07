@@ -26,13 +26,13 @@
 		"ghcr.io/devcontainers-contrib/features/vscode-cli:1": {
 			"version": "latest"
 		}
-	}
+	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"forwardPorts":[4200]
 
 	// Configure tool-specific properties.
 	// "customizations": {},
